@@ -7,11 +7,5 @@ services:
             dockerfile: Dockerfile
         image: frontend-iki
         container_name: frontend-iki
-        volumes: 
-            - type: volume
-              source: mydata
-              target: /gambar
-              volume:
-                  nocopy: false
         ports: 
             - "6900:6900"
