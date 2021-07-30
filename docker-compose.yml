@@ -8,4 +8,4 @@ services:
         image: frontend-iki
         container_name: frontend-iki
         ports: 
-            - "6900:6900"
+            - "8700:8700"
